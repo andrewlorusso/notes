@@ -2,6 +2,17 @@
 
 ## Overview 
 
+$x$
+
+$$\cup$$
+
+$y=mx+b$
+
+$$90 i $$
+
+$\delta \sigma \to$
+
+
 while (true) {
 
     switch (DS Function) {
