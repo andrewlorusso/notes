@@ -4,16 +4,27 @@
 
 ## Indeterminate forms
 
-$x$
+### $\frac{\infty}{\infty}$
 
-$$\cup$$
+**Following procedure**
 
-$y=mx+b$
 
-$$90 i $$
+### $\frac{0}{0}$
 
-$\delta \sigma \to$
+**Following procedure**
 
+### $\infty - \infty$
+**Following procedure**: Multiply my [conjugate]()
+
+**Case**: Function contains a root 
+
+
+
+### Algorithm
+
+**Premise**: Evaluating limits is a algorithm, not a gesse and check process or a flowchart. Each steps brings you closer to the correct anser.
+
+Each Indeterminate it a case which determines the next step of the algirms
 
 while (true) {
 
