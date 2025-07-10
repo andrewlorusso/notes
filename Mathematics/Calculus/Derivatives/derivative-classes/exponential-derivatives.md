@@ -28,10 +28,10 @@ Again, you should memorize the second, $u$ form of the derivative.
 
 ### **Proof**
 $$
-\begin{align*} y &= b^x && \text{original equation} \\ y &= e^{\ln b^x} && \text{log properties} \\ y &= e^{x \ln b} && \text{log properties} \\ \frac{dy}{dx} &= e^{x(\ln b)}\left(\frac{d}{dx}x(\ln b)\right) \qquad && \text{differentiate both sides, Chain Rule} \\ \frac{dy}{dx} &= e^{x(\ln b)}(\ln b) && \text{$\ln b$ is a constant} \\ \frac{dy}{dx} &= b^x (\ln b) && \text{log properties} \end{align*}
+\begin{aligned} y &= b^x && \text{original equation} \\ y &= e^{\ln b^x} && \text{log properties} \\ y &= e^{x \ln b} && \text{log properties} \\ \frac{dy}{dx} &= e^{x(\ln b)}\left(\frac{d}{dx}x(\ln b)\right) \qquad && \text{differentiate both sides, Chain Rule} \\ \frac{dy}{dx} &= e^{x(\ln b)}(\ln b) && \text{$\ln b$ is a constant} \\ \frac{dy}{dx} &= b^x (\ln b) && \text{log properties} \end{align*}
 \begin{flushright}
 \textit{QED}
-\end{flushright}
+\end{aligned}
 $$
 
 
