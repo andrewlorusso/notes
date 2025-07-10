@@ -33,7 +33,8 @@ $$
 \textit{QED}
 \end{aligned}
 $$
-
+- Comments
+-   (log property) If you take the natural log of something and then raise it to $e$ to that power that undo eachother (they are the same thing) this is becuase they are 1 to 1 inverse functions
 
 
 ### Implications
