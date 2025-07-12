@@ -38,3 +38,7 @@ Uptime: Serviers are always one, RAID, servers across the world sophisticaed man
 
 **Smartphone**
 - Worst user egnomcis, using microphone for dictation seems more ideomatic compared to typeing. Seems only useful as a netowring/commuication/media client device compared to a tool to do real work. A wearable might make more sense since it can do payments, dication, bluetooth.
+
+**Exernal drives**
+1. Holding media,
+2. btrfs parition `bttrfs send || btrfs recive`. Acts as a second backup with is air gapped
