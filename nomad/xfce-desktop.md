@@ -11,7 +11,7 @@ Alternatives: LXQt Desktop
 ### Drawbacks
 Poor wayland support
 Lack of influence/support 
-#### Benefits
+### Benefits
 Lightweight
 Native programs are loosely coupled allowing them to be used in other enviroments
 
