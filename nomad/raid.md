@@ -20,7 +20,7 @@ A hot spare is something that can be used in raid1, 3, 5, 6, 10, z1, z2, Z3... b
 ### Implemenation
 
 Raid card
-Filesystem implementaion: [btrfs](btfs.md) [zfs](zfs.md)
+Filesystem implementaion: [btrfs](btrfs.md) [zfs](zfs.md)
 
 ## RAID 01
 
