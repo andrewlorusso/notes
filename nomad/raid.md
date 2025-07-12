@@ -17,10 +17,9 @@ Generalliy large array [6, 1] (enterprise grade)
 
 A hot spare is something that can be used in raid1, 3, 5, 6, 10, z1, z2, Z3... but it is not needed in any raid.
 
-### Implemenation
-
-Raid card
-Filesystem implementaion: [btrfs](btrfs.md) [zfs](zfs.md)
+**Implemenation**
+- Raid card:
+- Native filesystem implementaion: [btrfs](btrfs.md) [zfs](zfs.md)
 
 ## RAID 01
 
