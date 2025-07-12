@@ -12,4 +12,9 @@ Case
 Run plan 3
 Push almost evertyng 
 Just get a definitive pool of data. Having redudant data > loosing data.
+ - writeups
+ - all programs scripts
+ - all new notes until stable env
+ - all infastrcuture (make a firmware testing script)
 Refine and interate the the cloud after.
+
