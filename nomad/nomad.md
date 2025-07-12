@@ -16,6 +16,6 @@ Just get a definitive pool of data. Having redudant data > loosing data.
  - all programs scripts
  - all new notes until stable env
  - defined enviroment, it does not need to be a full script or playbook. but just maybe a goal or checklist
- - all infastrcuture (make a firmware testing script)
+ - all infrastructure/ computing env (make a firmware testing script)
 Refine and interate the the cloud after.
 
