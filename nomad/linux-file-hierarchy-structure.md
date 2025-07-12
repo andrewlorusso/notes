@@ -1,6 +1,6 @@
 # Linux File Hierarchy Structure
 
-- **Networking**: Wifi card eco mode
+- **Networking**: Wifi card eco mode. This might have been a false postiive and just a firmware error.
 - **Systemd automounting**: 
 - **Repositiories**: trixie, backports, security, nonfree, external 
 - **Grub**: theme (no style), startup seconds
