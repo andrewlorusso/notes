@@ -1,0 +1,13 @@
+Computer             !=         storage
+  ^                                ^
+  | (capacity for logic)           | (capacity for data)
+  V                                V
+Logic               !=             data (database native binary or varaible width plaintext)
+
+Supplemental resources
+Memory
+Cooling
+PCB (logistics and allocations)
+PSU
+
+Worst type of vendor lock in. Decoupling: Separate your data from your configuration, and your configuration from the tools that apply it.
