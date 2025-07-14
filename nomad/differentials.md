@@ -1,6 +1,6 @@
 ## Linear Approximations
 
-The **linear approximation** (or linearization) of a differentiable function $f(x)$ at a point $x=a$ is the tangent line to the function at that point. We use it to approximate function values near $x=a$.
+The **linear approximation** (or linearization) of a differentiable function $f(x)$ at a point $x=a$ is the tangent line to the function at that point. It is used to approximate function values near $x=a$.
 
 The formula for the linearization, denoted $L(x)$, is derived from the point-slope equation of a line:
 *   **Point:** $(a, f(a))$
@@ -16,7 +16,7 @@ $f(x) \approx L(x)$ for $x \approx a$
 
 Differentials provide the language to describe the changes involved in linear approximation.
 
-Let's consider a change in $x$ from a point $a$ to a new point $a + \Delta x$.
+Consider a change in $x$ from a point $a$ to a new point $a + \Delta x$.
 
 #### 1. Actual Change (on the function curve)
 
@@ -26,14 +26,19 @@ Let's consider a change in $x$ from a point $a$ to a new point $a + \Delta x$.
 
 #### 2. Approximate Change (on the tangent line)
 
-*   The **differential $dx$** is defined as being identical to the change in $x$. It's an independent variable.
+*   The **differential $dx$** is defined as being identical to the change in $x$. It is an independent variable.
     $$dx = \Delta x$$
-*   The **differential $dy$** is the corresponding change in height *on the tangent line*. It is a dependent variable.
+*   The **differential $dy$** is the corresponding change in height on the tangent line. It is a dependent variable.
     $$dy = L(a + dx) - L(a)$$
-    Using the formula for $L(x)$, we can find a simpler expression for $dy$:
-    $$dy = [f(a) + f'(a)(a+dx-a)] - f(a) = f'(a)dx$$
-    So, the definition of the differential $dy$ is:
-    $$dy = f'(a)dx$$
+
+### Key Formula for the Differential dy
+
+The definition of the differential $dy$ is derived from the change on the tangent line:
+$$dy = [f(a) + f'(a)(a+dx-a)] - f(a) = f'(a)dx$$
+
+This results in the fundamental formula for the differential $dy$:
+
+> $$dy = f'(x)dx$$
 
 ### The Key Relationship
 
@@ -41,21 +46,10 @@ The core idea of linear approximation is that the actual change ($\Delta y$) is 
 
 $$\Delta y \approx dy$$
 
-Substituting the formulas we found:
-$$f(a + \Delta x) - f(a) \approx f'(a)dx$$
-Since $\Delta x = dx$, this is the fundamental approximation.
+### Abuse of Notation
 
-### Example: Finding the Linear Approximation for $f(x) = \sqrt[3]{x}$ at $x=-8$
+Treating a differential like a normal number can be considered an **abuse of notation**.
 
-1.  **Identify the point and function:**
-    *   $f(x) = \sqrt[3]{x} = x^{1/3}$
-    *   $a = -8$
+Strictly speaking, the derivative symbol $\frac{dy}{dx}$ is a single operator representing the result of a limit and is not a fraction. However, by formally defining the differentials $dx$ and $dy = f'(x)dx$, the derivative can be treated *as if* it were a fraction.
 
-2.  **Find the necessary values:**
-    *   $f(a) = f(-8) = \sqrt[3]{-8} = -2$
-    *   $f'(x) = \frac{1}{3}x^{-2/3} = \frac{1}{3\sqrt[3]{x^2}}$
-    *   $f'(a) = f'(-8) = \frac{1}{3\sqrt[3]{(-8)^2}} = \frac{1}{3\sqrt[3]{64}} = \frac{1}{3 \cdot 4} = \frac{1}{12}$
-
-3.  **Plug into the correct linearization formula:** $L(x) = f(a) + f'(a)(x-a)$
-    $$L(x) = -2 + \frac{1}{12}(x - (-8))$$
-    $$L(x) = -2 + \frac{1}{12}(x+8)$$
+Multiplying both sides of the equation $f'(x) = \frac{dy}{dx}$ by $dx$ is a procedural shortcut. This action is justified by the formal definition of differentials. Therefore, while this practice may appear to be an "abuse" of the original limit notation, it is a mathematically valid and powerful technique.
