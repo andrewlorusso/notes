@@ -10,6 +10,7 @@ tags:
 **Intuitive idea:** Functions have multiplicative growth (or decay) at a constant rate.
 
 **Definition**
+
 $$
 \begin{aligned}
 & f(x)=a \cdot b^x \\ \\
