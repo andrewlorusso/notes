@@ -25,7 +25,7 @@ tags:
 
 **Mode**
 - [Org Mode](https://orgmode.org)
-- Org-roam (can be added to Org mode) Also there website has the best colorscheme
+- Org-roam (can be added to Org mode) Colorscheme name?
 https://www.orgroam.com/
 - doom emacs
 - evil-mode (vim bindings)
