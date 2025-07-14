@@ -34,7 +34,8 @@ $$
 
 **Natural Exponential Function**
 - Exponential function where the base is [[euler's number|e]] and initial value is 1
-$$ f(x)=e^x $$
+
+$$f(x)=e^x$$
 
 ### Exponential Decay
 
